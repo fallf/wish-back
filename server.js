@@ -16,7 +16,10 @@ const __dirname = path.resolve();
 // ✅ Enable CORS BEFORE routes
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://your-frontend-domain.com"], // Replace with your real frontend domain
+    origin: [
+      "http://localhost:5173",
+      "https://rainbow-kitten-1fba3f.netlify.app",
+    ],
     credentials: true,
   })
 );
